@@ -16,7 +16,7 @@ class Tellco:
         """
         convert column to Int Type
         """
-        df[col_name] = df[col_name].astype("int")
+        df[col_name] = df[col_name].astype("int64")
 
         return df
 
